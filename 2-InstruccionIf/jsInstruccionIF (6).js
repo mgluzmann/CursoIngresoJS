@@ -8,17 +8,17 @@ edad=document.getElementById("edad").value;
 
 if(edad>=18)
 {
-    alert("La persona es mayor que adolescente");
+    alert("Mayor");
 }
 else
 {
     if(edad<13)
     {
-        alert("La persona es menor que adolescente");
+        alert("Niño");
     }
     else
     {
-        alert("La persona no es adolescente");
+        alert("Adolescente");
     }
 
 }
