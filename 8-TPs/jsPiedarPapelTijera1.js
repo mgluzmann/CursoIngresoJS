@@ -8,8 +8,22 @@ var eleccionMaquina;
 
 function comenzar()
 {
-	
+eleccionMaquina=Math.floor(Math.random()* (4-1)+1);
 
+switch(eleccionMaquina)
+{
+    case 1:
+    function pierda;
+    break;
+
+    case 2:
+    function papel;
+    break;
+
+    case 3:
+    function tijera;
+    break;
+}
 
 }//FIN DE LA FUNCIÓN
 function piedra()

@@ -6,7 +6,7 @@ function Mostrar()
 	num=Math.floor((Math.random() * 10) + 1);
 	num=parseInt(num);
 
-	alert(num);
+	alert("El numero es: "+num);
 
 
 }//FIN DE LA FUNCIÓN
